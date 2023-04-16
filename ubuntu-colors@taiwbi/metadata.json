@@ -4,7 +4,7 @@
     "uuid": "ubuntu-colors@taiwbi",
     "version": 5,
     "shell-version": [
-        "43"
+        "44", "43"
     ],
     "url": "https://github.com/demiskp/custom-accent-colors"
 }
