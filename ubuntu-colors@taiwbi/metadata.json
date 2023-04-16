@@ -1,0 +1,10 @@
+{
+    "name": "Ubuntu Colors",
+    "description": "Adds Ubuntu Custom Colors to Vanilla Gnome",
+    "uuid": "ubuntu-colors@taiwbi",
+    "version": 5,
+    "shell-version": [
+        "43"
+    ],
+    "url": "https://github.com/demiskp/custom-accent-colors"
+}
