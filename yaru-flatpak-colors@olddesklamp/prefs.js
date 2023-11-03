@@ -89,31 +89,31 @@ class CustomAccentColorsPrefsWidget extends Adw.PreferencesPage {
         extraRow.add_suffix(toggle);
         this.extraGroup.add(extraRow);
 
-        toggle = new Gtk.Switch({
-            action_name: 'theme-gtk3',
-            valign: Gtk.Align.CENTER,
-        });
-        this.settings.bind('theme-gtk3', toggle, 'active', Gio.SettingsBindFlags.DEFAULT);
-        extraRow = new Adw.ActionRow({
-            title: 'GTK3 Theming',
-            subtitle: 'Requires the "adw-gtk3" Theme.',
-            activatable_widget: toggle,
-        });
-        extraRow.add_suffix(toggle);
-        this.extraGroup.add(extraRow);
+        // toggle = new Gtk.Switch({
+        //     action_name: 'theme-gtk3',
+        //     valign: Gtk.Align.CENTER,
+        // });
+        // this.settings.bind('theme-gtk3', toggle, 'active', Gio.SettingsBindFlags.DEFAULT);
+        // extraRow = new Adw.ActionRow({
+        //     title: 'GTK3 Theming',
+        //     subtitle: 'Requires the "adw-gtk3" Theme.',
+        //     activatable_widget: toggle,
+        // });
+        // extraRow.add_suffix(toggle);
+        // this.extraGroup.add(extraRow);
 
-        toggle = new Gtk.Switch({
-            action_name: 'theme-shell',
-            valign: Gtk.Align.CENTER,
-        });
-        this.settings.bind('theme-shell', toggle, 'active', Gio.SettingsBindFlags.DEFAULT);
-        extraRow = new Adw.ActionRow({
-            title: 'Shell Theming',
-            subtitle: 'Requires the Shell Theme to be set to "Custom-Accent-Colors".',
-            activatable_widget: toggle,
-        });
-        extraRow.add_suffix(toggle);
-        this.extraGroup.add(extraRow);
+        // toggle = new Gtk.Switch({
+        //     action_name: 'theme-shell',
+        //     valign: Gtk.Align.CENTER,
+        // });
+        // this.settings.bind('theme-shell', toggle, 'active', Gio.SettingsBindFlags.DEFAULT);
+        // extraRow = new Adw.ActionRow({
+        //     title: 'Shell Theming',
+        //     subtitle: 'Requires the Shell Theme to be set to "Custom-Accent-Colors".',
+        //     activatable_widget: toggle,
+        // });
+        // extraRow.add_suffix(toggle);
+        // this.extraGroup.add(extraRow);
     }
 
     updateSelectedColor() {

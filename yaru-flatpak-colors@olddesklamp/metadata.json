@@ -1,0 +1,10 @@
+{
+    "name": "Ubuntu Flatpak Colors",
+    "description": "A fork of a fork- Adds Yaru accents to Flatpaks.",
+    "uuid": "ubuntu-flatpak-colors@olddesklamp",
+    "version": 1,
+    "shell-version": [
+       "45", "44", "43"
+    ],
+    "url": "https://github.com/olddesklamp/yaru-flatpak-colors"
+}
