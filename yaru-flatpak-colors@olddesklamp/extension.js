@@ -30,7 +30,7 @@ const HomeDir = GLib.get_home_dir();
 class Extension {
     enable() {
         this.settings = ExtensionUtils.getSettings(
-            'org.gnome.shell.extensions.custom-accent-colors'
+            'org.gnome.shell.extensions.yaru-accent-colors'
         );
 
         this.handlerAccentColor = this.settings.connect('changed::accent-color', () => {
@@ -193,7 +193,7 @@ class Extension {
 //         }
 
 //         shellThemeDir = Gio.File.new_for_path(
-//             HomeDir + '/.local/share/themes/Custom-Accent-Colors'
+//             HomeDir + '/.local/share/themes/yaru-accent-colors'
 //         );
 //         if (apply && this.accentColor != 'hdsbvjshvbjsdvb') {
 //             if (!shellThemeDir.query_exists(null)) {

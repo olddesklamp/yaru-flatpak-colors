@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-    <schema id="org.gnome.shell.extensions.custom-accent-colors"
-        path="/org/gnome/shell/extensions/custom-accent-colors/">
+    <schema id="org.gnome.shell.extensions.yaru-flatpak-colors"
+        path="/org/gnome/shell/extensions/yaru-flatpak-colors">
         <key name="accent-color" type="s">
             <default>"default"</default>
         </key>

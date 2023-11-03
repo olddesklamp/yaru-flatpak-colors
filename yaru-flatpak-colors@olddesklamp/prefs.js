@@ -39,7 +39,7 @@ class CustomAccentColorsPrefsWidget extends Adw.PreferencesPage {
         super();
 
         this.settings = ExtensionUtils.getSettings(
-            'org.gnome.shell.extensions.custom-accent-colors'
+            'org.gnome.shell.extensions.yaru-accent-colors'
         );
 
         this.mainGroup = new Adw.PreferencesGroup();
